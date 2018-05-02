@@ -36,7 +36,6 @@ public class ChromeTest2 {
 		Thread.sleep(10000);
 
 		WebElement genderInput = driver.findElement(By.xpath("//*[@id=\"id_gender1\"]"));
-
 		genderInput.click();
 
 		WebElement firstName = driver.findElement(By.xpath("//*[@id=\"customer_firstname\"]"));
@@ -54,11 +53,25 @@ public class ChromeTest2 {
 		WebElement city = driver.findElement(By.xpath("//*[@id=\"city\"]"));
 		city.sendKeys("London");
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		Select inputCity = new Select(driver.findElement(By.xpath("//*[@id=\"id_state\"]")));
 		
 		WebElement state = driver.findElement(By.id("mySelect"));
-		Select dropdown= new Select(mySelectElement);
 		
+		Select dropdown= new Select(driver.findElement(Bystate);
 		
 		Select dropdown = new Select(driver.findElement(By.id("identifier")));
 		
@@ -68,6 +81,8 @@ public class ChromeTest2 {
 				//state.selectByVisibleText("Alabama");
 				
 				//state.selectByIndex(2);
+				 * 
+				 */
 	}
 
 	@After
